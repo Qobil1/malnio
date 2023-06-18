@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/fon_film.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+}
+.active {
+  color: #ff0606;
+  text-decoration: underline;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1px;
+  color: rgb(10, 9, 9);
+}
+.nav-links {
+  display: block;
+  align-items: center;
+  padding: 10px;
+}
+header .nav-links li a:hover{
+  display: block;
+}
+.logo img {
+  border: none;
+  width: 60px;
+  margin-left: 10px;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  display: flex;
+}
+.navbar .logo_name {
+  margin-top: 70px;
+  margin-left: 15px;
+  font-family:'Courier New', Courier, monospace;
+}
+.navbar .logo_name:hover{
+  color: #ff0606;
+}
+.nav-links li {
+  margin: 0 20px;
+  list-style: none;
+  float: left;
+}
+.ctn {
+  padding: 1px 15px;
+  background: #fc036b;
+  border-radius: 30px;
+  color: whitesmoke;
+}
+header .navbar .nav-links li a{
+  padding: 1px;
+  color: #000;
+  font-size: 14px;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  height: 30px;
+  line-height: 30px;
+}
+header .navbar .nav-links li a:hover{
+  color: #fff;
+}
+.navbar .nav-links li ul {
+  position: absolute;
+  width: 100px;
+  display: none;
+  padding: 0;
+  float: left;
+}
+.navbar .nav-links li ul li {
+  width: 100%; 
+}
+.navbar .nav-links li ul li a{
+  padding: 2px;
+  color: #000;
+  font-size: 14px;
+  display: block;
+}
+.navbar .nav-links li:hover > ul {
+  display: initial;
+}
+.product {
+  margin-top: 0px;
+  box-sizing: border-box;
+}
+.mann {
+  margin: 10 0px;
+  height: auto;
+  box-sizing: border-box;
+}
+.rowsstore {
+  box-sizing: border-box;
+  height: auto;
+  margin: 10 auto;
+  text-align: center;
+}
+.texxt {
+  display: block;
+  width: 25%;
+  width: 300px;
+  height: 500px;
+  padding: 10px 15px 70px 10px;
+  display: inline-block; /*располагаем блоки в ряд по горизонтали*/
+  margin-right: -0.25em;
+  box-sizing: border-box;
+}
+.texxt img {
+  width: 100%;
+}
+.texxt a {
+  text-decoration: none;
+  color: rgb(12, 11, 11);
+}
+.fotos {
+  border: 2px solid #d6d6d6;
+  height: 200px;
+  box-sizing: border-box;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5 ease;
+}
+.mask {
+  display: inline-block; /* Строчно-блочный элемент */
+  overflow: hidden; /* Скрываем всё за контуром */
+}
+.mask img {
+  margin: 0 auto;
+  transition: 0.5s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+}
+.texxt .fotos:hover img {
+  transform: scale(1.05); /* Увеличиваем масштаб */
+}
+.texxt .fotos:hover {
+  margin: 0 auto;
+  border: 2px solid rgb(0, 106, 182);
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.texxt .fotos:hover p {
+  color: rgb(0, 111, 185);
+}
+.texxt .fotos:hover h2 {
+  color: rgb(88, 156, 0);
+}
+.nomo {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.nomo h2 {
+  margin: 5px 0;
+  padding-left: 40px;
+  text-align: left;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.5 ease;
+}
+.nomo p {
+  margin: 0;
+  padding-left: 40px;
+  text-align: left;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.5 ease;
+}

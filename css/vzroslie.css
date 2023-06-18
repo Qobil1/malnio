@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/fon-skazki.png');
+  background-repeat: repeat-x repeat-y;
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+}
+.active {
+  color: #ff0606;
+  text-decoration: underline;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1px;
+  color: rgb(10, 9, 9);
+}
+.nav-links {
+  display: block;
+  align-items: center;
+  padding: 10px;
+}
+header .nav-links li a:hover{
+  display: block;
+}
+.logo img {
+  border: none;
+  width: 60px;
+  margin-left: 10px;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  display: flex;
+}
+.navbar .logo_name {
+  margin-top: 70px;
+  margin-left: 15px;
+  font-family:'Courier New', Courier, monospace;
+}
+.navbar .logo_name:hover{
+  color: #ff0606;
+}
+.nav-links li {
+  margin: 0 20px;
+  list-style: none;
+  float: left;
+}
+.ctn {
+  padding: 1px 15px;
+  background: #fc036b;
+  border-radius: 30px;
+  color: whitesmoke;
+}
+header .navbar .nav-links li a{
+  padding: 1px;
+  color: #000;
+  font-size: 14px;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  height: 30px;
+  line-height: 30px;
+}
+header .navbar .nav-links li a:hover{
+  color: #fff;
+}
+.navbar .nav-links li ul {
+  position: absolute;
+  width: 100px;
+  display: none;
+  padding: 0;
+  float: left;
+}
+.navbar .nav-links li ul li {
+  width: 100%; 
+}
+.navbar .nav-links li ul li a{
+  padding: 2px;
+  color: #000;
+  font-size: 14px;
+  display: block;
+}
+.navbar .nav-links li:hover > ul {
+  display: initial;
+} 
+  .companyinfo {
+      width: 93%;
+      margin: 0 auto; 
+  }
+  .companyinfo h2 {
+      margin-top: 160px;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #252522;
+      font-size: 25px;
+  }  
+  .companyinfo p {
+      text-align: left;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #131211;
+      font-size: 17px;
+  }
+  .companyinfo1 {
+    width: 93%;
+    margin: 0 auto; 
+  }
+  .companyinfo1 h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #252522;
+    font-size: 25px;
+  }
+  .companyinfo1 p {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #131211;
+    font-size: 17px;
+  } 
+  .img img {
+    margin: 25px auto;
+    transition: 0.5s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+    border: 2px solid #d6d6d6;
+    width: 900px;
+    height: 350px;
+    box-sizing: border-box;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5 ease;
+  }
