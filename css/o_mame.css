@@ -78,8 +78,6 @@ header .navbar .nav-links li a{
   display: block;
   text-align: left;
   text-decoration: none;
-  height: 30px;
-  line-height: 30px;
 }
 header .navbar .nav-links li a:hover{
   color: #fff;
@@ -108,7 +106,6 @@ header .navbar .nav-links li a:hover{
   height: 550px;
   padding-left: 45px;
   padding-right: 45px;
-  position: relative;
 }  
 .infor-right {
   margin-top: 50px;
@@ -134,7 +131,6 @@ header .navbar .nav-links li a:hover{
 .infor-right h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding-left: 80px;
-  color: rgb(253, 5, 5);
 }  
 .infor-right a {
   text-decoration: none;
